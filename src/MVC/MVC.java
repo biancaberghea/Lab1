@@ -20,10 +20,10 @@ public class MVC {
     }
 
     private static Car retriveCarFromDatabase(){
-        Car course = new Car();
-        course.setBrand("Mercedes");
-        course.setId("01");
-        course.setHorsePower("300");
-        return course;
+        Car car = new Car();
+        car.setBrand("Mercedes");
+        car.setId("01");
+        car.setHorsePower("300");
+        return car;
     }
 }
